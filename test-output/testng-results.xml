@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-18T13:08:16 IST" name="Default suite" finished-at="2023-09-18T13:09:18 IST" duration-ms="61966">
+    <groups>
+    </groups>
+    <test started-at="2023-09-18T13:08:16 IST" name="Default test" finished-at="2023-09-18T13:09:18 IST" duration-ms="61966">
+      <class name="Module1_Test.Adactin_Testclass">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Module1_Test.Adactin_Testclass@1ca3b418]" started-at="2023-09-18T13:08:16 IST" name="OpenBrowser" finished-at="2023-09-18T13:08:24 IST" duration-ms="8211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="LoginToApp()[pri:0, instance:Module1_Test.Adactin_Testclass@1ca3b418]" started-at="2023-09-18T13:08:24 IST" name="LoginToApp" finished-at="2023-09-18T13:08:39 IST" duration-ms="14580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method signature="VerifyUN()[pri:1, instance:Module1_Test.Adactin_Testclass@1ca3b418]" started-at="2023-09-18T13:08:39 IST" name="VerifyUN" finished-at="2023-09-18T13:08:40 IST" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUN -->
+        <test-method is-config="true" signature="logOutfromApp(org.testng.ITestResult)[pri:0, instance:Module1_Test.Adactin_Testclass@1ca3b418]" started-at="2023-09-18T13:08:40 IST" name="logOutfromApp" finished-at="2023-09-18T13:08:45 IST" duration-ms="5674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUN status=SUCCESS method=Adactin_Testclass.VerifyUN()[pri:1, instance:Module1_Test.Adactin_Testclass@1ca3b418] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutfromApp -->
+        <test-method is-config="true" signature="LoginToApp()[pri:0, instance:Module1_Test.Adactin_Testclass@1ca3b418]" started-at="2023-09-18T13:08:45 IST" name="LoginToApp" finished-at="2023-09-18T13:08:48 IST" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method signature="getTitleOfApp()[pri:2, instance:Module1_Test.Adactin_Testclass@1ca3b418]" started-at="2023-09-18T13:08:48 IST" name="getTitleOfApp" finished-at="2023-09-18T13:08:48 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleOfApp -->
+        <test-method is-config="true" signature="logOutfromApp(org.testng.ITestResult)[pri:0, instance:Module1_Test.Adactin_Testclass@1ca3b418]" started-at="2023-09-18T13:08:48 IST" name="logOutfromApp" finished-at="2023-09-18T13:08:50 IST" duration-ms="1825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getTitleOfApp status=SUCCESS method=Adactin_Testclass.getTitleOfApp()[pri:2, instance:Module1_Test.Adactin_Testclass@1ca3b418] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutfromApp -->
+        <test-method is-config="true" signature="LoginToApp()[pri:0, instance:Module1_Test.Adactin_Testclass@1ca3b418]" started-at="2023-09-18T13:08:50 IST" name="LoginToApp" finished-at="2023-09-18T13:08:53 IST" duration-ms="2601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method signature="BookHotel()[pri:3, instance:Module1_Test.Adactin_Testclass@1ca3b418]" started-at="2023-09-18T13:08:53 IST" name="BookHotel" finished-at="2023-09-18T13:09:13 IST" duration-ms="20126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHotel -->
+        <test-method is-config="true" signature="logOutfromApp(org.testng.ITestResult)[pri:0, instance:Module1_Test.Adactin_Testclass@1ca3b418]" started-at="2023-09-18T13:09:13 IST" name="logOutfromApp" finished-at="2023-09-18T13:09:17 IST" duration-ms="4729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BookHotel status=SUCCESS method=Adactin_Testclass.BookHotel()[pri:3, instance:Module1_Test.Adactin_Testclass@1ca3b418] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutfromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Module1_Test.Adactin_Testclass@1ca3b418]" started-at="2023-09-18T13:09:17 IST" name="closeBrowser" finished-at="2023-09-18T13:09:18 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Module1_Test.Adactin_Testclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

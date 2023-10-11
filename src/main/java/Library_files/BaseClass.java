@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BaseClass 
 {
+	
 	public WebDriver driver;
 	public void initializeBrowser()
 	{
@@ -22,7 +23,7 @@ public class BaseClass
 		 driver.manage().window().maximize();
 		 	
 		 //Wait
-		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(12));
+		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 	}
 
